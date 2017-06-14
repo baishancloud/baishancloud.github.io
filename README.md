@@ -1,5 +1,8 @@
 # 白十三的码路 - 白山云技术博客
 
+# Blog 地址
+http://baishancloud.github.io
+
 # 用法
 
 * fork此repo到你自己名下
