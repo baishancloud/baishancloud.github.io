@@ -4,6 +4,8 @@ title:  "Epoch of BaishnCloud Blog"
 date:   2017-05-24 13:49:32
 author: Paul Yang
 categories: generic
+img_url: homepage.png
+blog_url:
 ---
 
 这里将成为白山云发布技术文章的地点。

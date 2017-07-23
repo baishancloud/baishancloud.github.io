@@ -4,6 +4,7 @@ title:  浅谈RSA Padding
 date:   2017-05-24 16:27:00
 author: Paul Yang
 categories: cryptography
+img_url: 1.jpeg
 ---
 
 一个有意思的问题，如果一段数据用RSA私钥进行加密，针对加密的密文，如果使用和加密私钥不匹配的公钥进行解密，会解密出无意义的内容，还是会解密失败？

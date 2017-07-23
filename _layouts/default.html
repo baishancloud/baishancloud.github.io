@@ -4,11 +4,42 @@
 
   <body>
     {% include header.html %}
-    <br>
     <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    	<div class="content">
+        	{{ content }}
+    	</div>
+        <div class="hot">
+		    <div class="hot-article">
+		        <div style="height: 60px;background-color: #eaebec;box-shadow: 4px 10px 10px #d4d5d6;    z-index: 1;position: relative;">
+		            <h5 style="margin-left: 60px;font-size: 20px;line-height: 60px;font-weight: 600px">热门文章</h5>
+		        </div>
+		        <div class="hot-content" >
+		            <ul style="margin-left: 40px;list-style-type: disc;">
+		                <li><a href="https://baishancloud.github.io/tech/distributed/2017/02/01/ec.html">xp的分布式系统系列教程之: Erasure-Code: 工作原理, 数学解释, 实践和分析.</a>
+		                </li>
+		                <li><a href="https://baishancloud.github.io/cryptography/2017/05/24/rsa-padding-paulyang.html">浅谈RSA Padding</a></li>
+		                <li><a href="https://baishancloud.github.io/generic/2017/05/24/epoch-baishancloud-blog-paulyang.html">Epoch of BaishnCloud Blog</a></li>
+		            </ul>
+		        </div>
+
+		    </div>
+
+		    <div class="hot-article">
+		        <div style="height: 60px;background-color: #eaebec;box-shadow: 4px 10px 10px #d4d5d6;z-index: 1;position: relative;">
+		            <h5 style="margin-left: 60px;font-size: 20px;line-height: 60px;font-weight: 600px">高能博主</h5>
+		        </div>
+		        <div class="hot-blogs" >
+		            <ul style="margin-left: 40px;list-style-type: disc;">
+		                <li><a href="https://baishancloud.github.io/tech/distributed/2017/02/01/ec.html">xp的分布式系统系列教程之: Erasure-Code: 工作原理, 数学解释, 实践和分析.</a>
+		                </li>
+		                <li><a href="https://baishancloud.github.io/cryptography/2017/05/24/rsa-padding-paulyang.html">浅谈RSA Padding</a></li>
+		                <li><a href="https://baishancloud.github.io/generic/2017/05/24/epoch-baishancloud-blog-paulyang.html">Epoch of BaishnCloud Blog</a></li>
+		            </ul>
+		        </div>
+
+		    </div>
+		</div>
+		<div style="clear: both;"></div>
     </div>
     
     {% include footer.html %}

@@ -1,60 +1,15 @@
 <header class="header">
-	<div class="header-container">
-		<div class="nav">
-			{% if page.path == "index.html" %}
-			<span class="title">
-				<li>
-					<a href="/index.html">home</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="/index.html">home</a>
-				</li>			
-			{% endif %}
-			{% if page.path == "archive.html" %}
-			<span class="title">
-				<li>
-					<a href="/archive.html">archive</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="/archive.html">archive</a>
-				</li>			
-			{% endif %}
-			{% if page.path == "category.html" %}
-			<span class="title">
-				<li>
-					<a href="/category.html">category</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="/category.html">category</a>
-				</li>			
-			{% endif %}
-				<li>
-					<a href="http://www.baishancloud.com">白山官网</a>
-				</li>			
-		</div>
-		<div class="description"> {{ site.motto }} </div>		
-		<ul class="social-links">
-			<li>
-				<a href="https://github.com/{{ site.github_username }}" title="Github">
-					<img width="19px" height="19px" src="/images/github.png"/>
-				</a>
-			</li>
-			<li>
-				<a href="/feed.xml" title="RSS">
-					<img width="19px" height="19px" src="/images/rss.png"/>
-				</a>
-			</li>
-			<li>
-				<a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
-					<img width="19px" height="19px" src="/images/twitter.png"/>
-				</a>
-			</li>
-		</ul>		
+	<div class="logo">
+		<img src="/images/logo.png">
 	</div>
-</header>
+	<div class="pagename">
+		<a href="/index.html">
+		<p style="font-size: 28px;color: #fff;float: center;margin: 5px 5px 5px 5px;line-height: 30px;">白十三的码路</p>
+		</a>
+	</div>
+	<div class="header-right">
+		<a href="http://www.baishancloud.com" class="bsc-web">白山官网</a>
+		<button class="login">登陆</button>
+	</div>
+</header>	
+		
