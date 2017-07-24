@@ -2,8 +2,9 @@
 layout: post
 title:  "Epoch of BaishnCloud Blog"
 date:   2017-05-24 13:49:32
-author: Paul Yang
+tags:   theory distributed tutorial replication erasure code lion
 categories: generic
+author: Paul Yang
 img_url: homepage.png
 blog_url:
 ---

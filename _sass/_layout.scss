@@ -191,7 +191,7 @@ li {
 }
 
 .homepage {
-    width: 1008px;
+    width: 100%;
     margin-right: 0px;
     float: left;
     display: block;
@@ -221,12 +221,14 @@ li {
     width: 30%;
     position: fixed;
     right: 0px;
+    height: 1000px;
 }
 
 .hot-article {
     margin-top: 0px;
     color: #666;
     font-size: 14px;
+    width: 100%;
     float: right;
 }
 
@@ -235,6 +237,7 @@ li {
     background-color: #eaebec;
     font-size: 14px;
     padding-top: 30px;
+    width: 100%;
     z-index: -1;
 }
 
