@@ -44,6 +44,7 @@ html,body {
 .bsc-web {
     line-height: 20px;
     color: #fff !important;
+    font-size: 14px !important;
     border: 2px solid white;
     padding: 4px 15px;
 
@@ -74,11 +75,12 @@ html,body {
     margin-left: 15px;
     margin-right: 20px;
     color: white;
-    background-color: #4c6de2;
+    background-color: #bbcee7;
     border: 0px;
     bottom: px;
     position: relative;
     bottom: 2.5px;
+    font-size: 14px !important;
 }
 
 .nav {
@@ -347,8 +349,10 @@ li {
  */
 .footer {
     font-size: 11px;
-    text-align: center;
-	color: #666;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 30%;
+    color: #666;
 }
 
 #gotop {
