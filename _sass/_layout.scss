@@ -99,6 +99,7 @@ html,body {
 li {
     margin-left: 0px;
     line-height: 1.7em;
+    color: cadetblue;
 }
 
 .nav a {
@@ -200,12 +201,13 @@ li {
 }
 
 .home-article {
-    width: 90%;
-    margin: 480px 20px 50px 120px;
+    margin-top: 480px;
+    padding-left: 6%;
+    width: 100%;
 }
 
 .article-module {
-    width: 42%;
+    width: 46%;
     float: left;
     height: 200px;
     padding-left: 5%;
@@ -214,7 +216,7 @@ li {
 
 .article-module .title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .hot {
@@ -235,7 +237,7 @@ li {
 .hot-content {
     height: 310px;
     background-color: #eaebec;
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 30px;
     width: 100%;
     z-index: -1;
