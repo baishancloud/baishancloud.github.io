@@ -24,7 +24,9 @@ title:  浅谈RSA Padding
 date:   2017-05-24 16:27:00
 author: Paul Yang
 categories: cryptography
+tags:   theory distributed tutorial replication erasure code lion
 ---
+ps:"brainhole" as "脑洞核聚变" ；"lion" as "攻城狮文化";"pickup" as "一拾化贝";"weed" as "资源草料库"
 ```
 
 * layout，指定页面样式，固定为post
