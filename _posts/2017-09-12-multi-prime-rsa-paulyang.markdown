@@ -31,9 +31,9 @@ img_url: 1.jpeg
 简单来说，多素数RSA是指生成RSA密钥时，计算固定长度（比如2048位或者4096位）的模数（modulus）的时候，选择多于2个素数并进行相乘得到最终期望长度的modulus。也就是说，标准RSA的计算方式`n = p * q`，在多素数RSA中，会变成 `n = r1 * r2 * r3 * r4 * r5...` 的形式。这也是多素数（multi-prime RSA）名字的由来。
 这样做有什么好处？这就需要了解RSA的密钥生成以及加密解密的具体计算方式，具体内容比较多，留到后面慢慢说，咱们还是先通过下图看直观的最终效果：
 
-<span id="performance"><img src="/images/mp1.jpeg" alt="performance" /></span>
-
 <span id="keygentime"><img src="/images/mp2.jpeg" alt="keygentime" /></span>
+
+<span id="performance"><img src="/images/mp1.jpeg" alt="performance" /></span>
 
 注：因为OpenSSL的素数生成依赖于随机数，因此密钥生成时间不稳定，但是依然具有素数个数越多则时间越短的整体趋势。
 
