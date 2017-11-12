@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "可靠分布式系统基础 Paxos 的直观解释"
+title:  "xp的分布式系统系列教程之: 可靠分布式系统基础 Paxos 的直观解释"
 date:  2017 Oct 22
 categories: tech distributed
-tags: paxos network theory distributed consensus tutorial quorum replication
+author: xp
+tags: paxos network theory distributed consensus tutorial quorum replication brainhole
 ---
 
 Paxos 已经逐渐被承认是分布式系统中不可缺少的核心算法,
