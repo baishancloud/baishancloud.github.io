@@ -206,20 +206,6 @@ Time
 因为nonblocking所以没有线程阻塞,
 上面提到的行为差别不会体现出来 。
 
-<strike>
-当时注意到这个问题是在做1个go的server，因为在go的实现中，
-一个tcp的accept的底层实现里，对accept()的系统调用还是阻塞的。
-
-当另1个goroutine想要退出整个进程的时候，需要通知accept的goroutine先退出。
-
-最初我使用`func (*TCPListener) Close`来关闭监听的socket,
-但发现TCPListener:Close实际调用了系统调用close(),
-无法唤醒当前正在accept()的goroutine,
-必须等到有下一个连接进来才能唤醒accept()，
-进而退出整个进程。
-
-所以后来改成使用shutdown()来关闭`sock_fd`，以达到唤醒accept()的goroutine的目的。
-</strike>
 
 ---
 
